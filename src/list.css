@@ -1,0 +1,34 @@
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 20px;
+    cursor: pointer;
+    width: 10px;
+    size: 10px;
+  }
+  up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  body{
+    background-color: aqua;
+  }
+  #movie-heading {
+    display: inline;
+    margin-left: 45px;
+    /* Add any other styling you need for the heading */
+  }
+  
+  #company-link {
+    display: inline;
+    /* Add any other styling you need for the link */
+    margin-left: 850px;
+    font-size: 25px;
+  }

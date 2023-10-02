@@ -1,0 +1,52 @@
+/* Signup.css */
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: white;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+body{
+  background-color: rgb(32, 59, 59);
+}
